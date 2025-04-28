@@ -16,7 +16,7 @@ Both implementations search the web for information, structure content using the
 ## Features
 
 - 🌐 **Web Search Integration**: Uses Tavily API to gather up-to-date information
-- 🗣️ **AI Content Generation**: Leverages LLMs (OpenAI or Google Gemini) to create engaging podcast scripts
+- 🗣️ **AI Content Generation**: Leverages LLMs (OpenAI) to create engaging podcast scripts
 - 🎙️ **Text-to-Speech**: Converts scripts to natural-sounding audio using ElevenLabs
 - 🧠 **Structured Content**: Organizes information in the 3-2-1 framework for clarity and engagement
 - 🔄 **Multiple Architectures**: Choose between state-driven or tool-driven approaches
