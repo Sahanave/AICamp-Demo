@@ -32,7 +32,6 @@ pip install langchain-openai langchain-google-genai langchain-core langchain-tav
 This project requires multiple API keys:
 
 - **OpenAI API Key** (for OpenAI models)
-- **Google API Key** (for Gemini models)
 - **Tavily API Key** (for web search)
 - **ElevenLabs API Key** (for voice synthesis)
 
@@ -44,7 +43,6 @@ from google.colab import userdata
 # Set environment variables
 import os
 os.environ['OPENAI_API_KEY'] = userdata.get('OPENAI_API_KEY')
-os.environ['GOOGLE_API_KEY'] = userdata.get('GOOGLE_API_KEY')
 os.environ['TAVILY_API_KEY'] = userdata.get('TAVILY_API_KEY')
 os.environ['ELEVENLABS_API_KEY'] = userdata.get('ELEVENLABS_API_KEY')
 ```
